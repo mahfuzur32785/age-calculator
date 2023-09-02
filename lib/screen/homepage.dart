@@ -92,6 +92,7 @@ class _HomePageState extends State<HomePage> {
                         Navigator.push(context, MaterialPageRoute(builder: (context) => ResultScreen(
                           dateOfBirth: "$duration",
                           nextBirthDay: "$duration1",
+                          years: "${duration?.years}",
                           month: "$month",
                           week: week,
                           days: days,
