@@ -1,4 +1,4 @@
-package com.example.agecalculator
+package com.linkuplech.agecalculator
 
 import io.flutter.embedding.android.FlutterActivity
 

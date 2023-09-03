@@ -20,10 +20,10 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           children: [
             Expanded(
-                flex: 5,
+                flex: 3,
                 child: Container(
                   padding:
-                      const EdgeInsets.symmetric(vertical: 50, horizontal: 30),
+                      const EdgeInsets.only(bottom: 20, left: 30, right: 30, top: 50),
                   decoration: const BoxDecoration(color: Color(0xff2b248d)),
                   child: const Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -50,7 +50,7 @@ class _HomePageState extends State<HomePage> {
                 ),
             ),
             Expanded(
-                flex: 5,
+                flex: 6,
                 child: Container(
                   padding:
                       const EdgeInsets.symmetric(vertical: 50, horizontal: 30),
